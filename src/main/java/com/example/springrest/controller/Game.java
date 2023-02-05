@@ -8,7 +8,7 @@ import java.util.Map;
 @RestController
 public class Game {
     // Home Page
-    @GetMapping("/")
+    @GetMapping("/home")
     public String home(){
         return "Welcome to Rock, Paper and Scissors Game!\nTo play with computer post => /play?move={rock/paper/scissors}";
     }

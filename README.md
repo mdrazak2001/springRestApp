@@ -13,7 +13,7 @@ The is just a game REST service that would run on port **8080** locally.
 <br>
 Here are some endpoints you can call:
 ```
-GET: http://localhost:8080/
+GET: http://localhost:8080/home
 
 Response:
 Welcome to Rock, Paper and Scissors Game!
