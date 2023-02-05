@@ -1,9 +1,6 @@
 package com.example.springrest.entities;
 
 public class Result {
-
-
-
     public static String getResult(Entity user, Entity computer) {
         if(user.name().equals(computer.name())) {
             return "It is a tie!";

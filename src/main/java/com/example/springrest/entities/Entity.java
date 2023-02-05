@@ -21,6 +21,6 @@ public class Entity {
         };
     }
     public boolean beats(Entity other) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        throw new UnsupportedOperationException("Not implemented yet ");
     }
 }
