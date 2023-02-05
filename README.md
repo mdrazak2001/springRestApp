@@ -44,3 +44,10 @@ This project contains **6** inbuilt unit test cases :
 Unit testing ensures that all code meets quality standards before it's deployed.
 
 ## Swagger UI Documentation
+Head over to the below link to access the swagger ui documentation: <br>
+
+```http://localhost:8080/swagger-ui/index.html```
+<br>
+<br>
+![Alt text](screenshots/swagger_doc.png?raw=true "Optional Title")
+You test out endpoints using Swagger UI's ***Try it out*** feature as well.

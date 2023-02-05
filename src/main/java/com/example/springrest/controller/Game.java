@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 @RestController
-public class MyController {
+public class Game {
     // Home Page
     @GetMapping("/")
     public String home(){
