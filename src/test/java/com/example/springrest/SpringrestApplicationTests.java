@@ -44,7 +44,12 @@ class SpringrestApplicationTests {
 		Entity paper = Entity.createEntity("paper");
 		assertTrue(scissors.beats(paper));
 	}
-
+	@Test
+	public void testTie() {
+		Entity scissors1 = Entity.createEntity("scissors");
+		Entity scissors2 = Entity.createEntity("scissors");
+		assertEquals("It is a tie!", Result.getResult(scissors1, scissors2));
+	}
 	@Autowired
 	private MockMvc mockMvc;
 	@Test

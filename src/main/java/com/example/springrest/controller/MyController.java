@@ -10,9 +10,7 @@ public class MyController {
     // Home Page
     @GetMapping("/")
     public String home(){
-        Rock r = new Rock("rock");
-        Scissors s = new Scissors("scissors");
-        return "Welcome to Rock, Paper and Scissors Game!"+r.beats(s);
+        return "Welcome to Rock, Paper and Scissors Game!\nTo play with computer post => /play?move={rock/paper/scissors}";
     }
 
     @RequestMapping(value = "/play", method = RequestMethod.POST)
