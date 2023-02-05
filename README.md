@@ -50,4 +50,4 @@ Head over to the below link to access the swagger ui documentation: <br>
 <br>
 <br>
 ![Alt text](screenshots/swagger_doc.png?raw=true "Swagger UI")
-You test out endpoints using Swagger UI's ***Try it out*** feature as well.
+You can test out endpoints using Swagger UI's ***Try it out*** feature as well.

@@ -54,7 +54,7 @@ class SpringrestApplicationTests {
 	private MockMvc mockMvc;
 	@Test
 	public void testGetHome() throws Exception {
-		mockMvc.perform(get("/"))
+		mockMvc.perform(get("/home"))
 				.andExpect(status().isOk());
 	}
 	@Test
